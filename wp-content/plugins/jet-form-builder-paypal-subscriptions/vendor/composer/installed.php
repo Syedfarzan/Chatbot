@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'type' => 'project',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => '183cc442ab523c88aee24ad7c15836ea1eb4b82b',
+        'name' => 'hug.reed/jet-form-builder-paypal-subscriptions',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'crocoblock/jfb-addon-core' => array(
+            'pretty_version' => '1.1.8',
+            'version' => '1.1.8.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../crocoblock/jfb-addon-core',
+            'aliases' => array(),
+            'reference' => '5798318cee493e029c218f49523ab6b26f81cfbf',
+            'dev_requirement' => false,
+        ),
+        'crocoblock/jfb-addon-core-dev' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../crocoblock/jfb-addon-core-dev',
+            'aliases' => array(),
+            'reference' => '39ab4f0b9cff78ff721eaea2207f2842ac99441f',
+            'dev_requirement' => false,
+        ),
+        'hug.reed/jet-form-builder-paypal-subscriptions' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '183cc442ab523c88aee24ad7c15836ea1eb4b82b',
+            'dev_requirement' => false,
+        ),
+    ),
+);
